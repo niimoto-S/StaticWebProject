@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>入力フォーム</title>
+<link rel="stylesheet" href="css/practiceTest8.css">
+</head>
+<body>
+
+<form action="practiceTest8.html" method="get">
+	<ul>
+		<li><label class="redLine">名前:</label><input type="text" name="name" placeholder="山田 太郎"></li>
+		<li><label class="redLine">メールアドレス:</label><input type="text" name="mailAddress" placeholder="example@gmail.com"></li>
+		<li><label class="redLine">誕生日:</label><input type="number" name="birthMonth" size="2" min="1" max="12" placeholder="月"> <input type="number" name="birthDay" size="2" min="1" max="31" placeholder="日"></li>
+		<li><label class="redLine">性別:</label><input type="radio" name="sex" value="man">男性<input type="radio" name="sex" value="woman">女性</li>
+		<li><label class="redLine">OS:</label><input type="checkbox" name="OS" value="Windows7">Windows7<input type="checkbox" name="OS" value="Windows8">Windows8<input type="checkbox" name="OS" value="Windows10">Windows10<input type="checkbox" name="OS" value="Mac">Mac<input type="checkbox" name="OS" value="Linux">Linux</li>
+		<li><label class="redLine">ひとこと:</label><textarea rows="2" cols="10" name="message"></textarea></li>
+		<li><input type="submit" value="登録"></li>
+	</ul>
+</form>
+<script type="text/javascript" src="js/practiceTest9.js"></script>
+</body>
+</html>
